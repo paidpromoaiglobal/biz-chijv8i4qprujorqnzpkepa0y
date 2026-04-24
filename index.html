@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#2C3E50">
+<title>Panoply Interior | Best Interior Design &amp; Custom Furniture in Kelambakkam, Chennai</title>
+<meta name="description" content="Panoply Interior offers premium home interior design, custom wardrobes, modular kitchens, and complete fit-out services in Kelambakkam, Tamil Nadu. Rated 4.4★ by 110+ happy customers. Call 089396 26326 for a consultation.">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',sans-serif;color:#1e293b;background:#fff;-webkit-font-smoothing:antialiased}
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:9999;background:#25d366;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.45);text-decoration:none;transition:transform .2s}.wa-float:hover{transform:scale(1.1)}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid #e2e8f0;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;height:60px}
+.nav-brand{font-weight:700;font-size:.98rem;color:#2C3E50;max-width:55%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nav-cta{background:#2C3E50;color:#fff;padding:9px 20px;border-radius:6px;text-decoration:none;font-size:.82rem;font-weight:600;flex-shrink:0}
+/* HERO */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:-15%;width:130%;height:130%;background-image:url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1600&q=85&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,#2C3E50f2 0%,#F5F0EBdd 50%,#2C3E5099 100%)}
+.hero-inner{position:relative;z-index:2;padding:90px 5vw 60px;color:#fff;max-width:640px}
+.hero-badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.hero-badge{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:5px 13px;border-radius:50px;font-size:.76rem;font-weight:500;backdrop-filter:blur(4px)}
+.hero h1{font-size:clamp(1.9rem,5vw,3rem);font-weight:800;line-height:1.15;margin-bottom:16px;letter-spacing:-.02em}
+.hero p{font-size:clamp(.95rem,2.2vw,1.1rem);opacity:.88;line-height:1.68;margin-bottom:30px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-white{background:#fff;color:#2C3E50;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:700;font-size:.93rem}
+.btn-ghost{background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.5);color:#fff;padding:13px 26px;border-radius:8px;text-decoration:none;font-size:.93rem;font-weight:500}
+/* METRICS */
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);background:#f8fafc;border-bottom:1px solid #e2e8f0}
+.metric{padding:20px 12px;text-align:center;border-right:1px solid #e2e8f0}
+.metric:last-child{border:none}
+.metric-val{font-size:1.6rem;font-weight:800;color:#2C3E50;line-height:1}
+.metric-lbl{font-size:.7rem;color:#94a3b8;text-transform:uppercase;letter-spacing:.07em;margin-top:4px}
+/* ABOUT */
+section{padding:60px 5vw}
+.container{max-width:960px;margin:0 auto}
+.sec-head{margin-bottom:36px}
+.sec-head h2{font-size:clamp(1.4rem,3vw,1.9rem);font-weight:800;color:#0f172a;margin-bottom:6px}
+.sec-head p{color:#64748b;font-size:.9rem}
+.about-grid{display:grid;grid-template-columns:1fr;gap:36px;align-items:center}
+@media(min-width:768px){.about-grid{grid-template-columns:1fr 1fr}}
+.about-img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px}
+.about-text h2{font-size:clamp(1.4rem,3vw,1.9rem);font-weight:800;color:#0f172a;margin-bottom:14px}
+.about-text p{color:#475569;line-height:1.8;margin-bottom:12px;font-size:.93rem}
+.hl-list{list-style:none;margin-top:14px}
+.hl-list li{padding:7px 0 7px 26px;position:relative;color:#334155;font-size:.87rem;border-bottom:1px solid #f1f5f9}
+.hl-list li:before{content:'✓';color:#C9A96E;position:absolute;left:0;font-weight:700}
+/* SERVICES */
+.services-bg{background:#f8fafc}
+.svc-grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:480px){.svc-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.svc-grid{grid-template-columns:repeat(3,1fr)}}
+.svc-card{background:#fff;border-radius:12px;padding:22px;border:1px solid #e2e8f0;position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.svc-card:after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#2C3E50,#C9A96E)}
+.svc-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.07)}
+.svc-card h3{font-weight:700;color:#0f172a;margin-bottom:8px;font-size:.95rem}
+.svc-card p{color:#64748b;font-size:.87rem;line-height:1.6}
+/* PARALLAX */
+.parallax-strip{position:relative;min-height:320px;display:flex;align-items:center;overflow:hidden}
+.pstrip-bg{position:absolute;inset:-20%;width:140%;height:140%;background-image:url('https://images.unsplash.com/photo-1497366754035-f200968a7efa?w=1200&q=80&fit=crop&auto=format');background-size:cover;background-position:center;will-change:transform}
+.pstrip-overlay{position:absolute;inset:0;background:linear-gradient(135deg,#2C3E50f0,#F5F0EBcc)}
+.pstrip-content{position:relative;z-index:2;padding:48px 5vw;color:#fff;max-width:560px}
+.pstrip-content h2{font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin-bottom:12px}
+.pstrip-content p{opacity:.82;margin-bottom:26px;font-size:.95rem}
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(min-width:600px){.gallery-grid{grid-template-columns:repeat(3,1fr)}}
+.gallery-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px}
+/* REVIEWS */
+.reviews-bg{background:#0f172a}
+.rv-grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:32px}
+@media(min-width:640px){.rv-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.rv-grid{grid-template-columns:repeat(3,1fr)}}
+.rv-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:22px}
+.rv-stars{color:#fbbf24;margin-bottom:8px}
+.rv-text{color:rgba(255,255,255,.65);font-size:.89rem;line-height:1.7;font-style:italic;margin-bottom:12px}
+.rv-author{color:rgba(255,255,255,.4);font-size:.8rem;font-weight:600}
+/* CTA */
+.cta-strip{background:linear-gradient(135deg,#C9A96E,#2C3E50);color:#fff;padding:60px 5vw;text-align:center}
+.cta-strip h2{font-size:clamp(1.5rem,3vw,2rem);font-weight:800;margin-bottom:12px}
+.cta-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.cb-w{background:#fff;color:#2C3E50;padding:13px 28px;border-radius:8px;text-decoration:none;font-weight:700;font-size:.9rem}
+.cb-o{border:1.5px solid rgba(255,255,255,.5);color:#fff;padding:12px 26px;border-radius:8px;text-decoration:none;font-size:.9rem}
+footer{background:#020617;color:#475569;text-align:center;padding:22px;font-size:.78rem}
+</style>
+</head>
+<body>
+<nav>
+  <span class="nav-brand">PANOPLY INTERIOR</span>
+  <a href="https://wa.me/918939626326?text=Hi%2C%20I%20found%20Panoply%20Interior%20online%20and%20I'm%20interested%20in%20your%20interior%20design%20and%20furniture%20services.%20Could%20you%20please%20share%20more%20details%20and%20help%20me%20get%20started%3F" class="nav-cta">💬 WhatsApp</a>
+</nav>
+<div class="hero">
+  <div class="hero-bg" id="hp"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <div class="hero-badges">
+      <span class="hero-badge">⭐ 4.4/5</span>
+      <span class="hero-badge">Google Verified</span>
+      <span class="hero-badge">📍 Tamil Nadu 603103, India</span>
+    </div>
+    <h1>Transforming Spaces, Crafting Dreams</h1>
+    <p>Premium interior design and custom furniture solutions tailored to bring your vision to life in Kelambakkam and beyond.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/918939626326?text=Hi%2C%20I%20found%20Panoply%20Interior%20online%20and%20I'm%20interested%20in%20your%20interior%20design%20and%20furniture%20services.%20Could%20you%20please%20share%20more%20details%20and%20help%20me%20get%20started%3F" class="btn-white">Get a Free Consultation Today</a>
+      <a href="tel:089396 26326" class="btn-ghost">📞 Call Now</a>
+    </div>
+  </div>
+</div>
+<div class="metrics">
+  <div class="metric"><div class="metric-val">4.4/5</div><div class="metric-lbl">Rating</div></div>
+  <div class="metric"><div class="metric-val">✓</div><div class="metric-lbl">Verified</div></div>
+  <div class="metric"><div class="metric-val">100%</div><div class="metric-lbl">Committed</div></div>
+</div>
+<section>
+  <div class="container">
+    <div class="about-grid">
+      <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEH4-dxxULB_3loMnwElu6jq2tRFecEAyndfyVtkE-Q_LHAUufpG9Zct0JZkWhjw5xtNoy3GhNqbTrxXoxMhcvUeOl32xZqPI3huYTJGrHVETDS1QkyWPMTNy-5oFr5rNVd1rzO7MaTlGLOKV4Ucc7QffvjZcj_r9tqY0QQgJDLJIX78ILi8T57vdblrP8faSjJdAj8ydFa9m47Pj477H_lx5bY4ScpX_KJXPoFgl6ATXtS221gNmrolBxeu3AfKLxOf0x0e0KbnT8R7YzJI0Rpn9k9tN2BDm81NCUbwb9mQVg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="PANOPLY INTERIOR" class="about-img" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1600&q=85&fit=crop&auto=format'">
+      <div>
+        <div class="sec-head" style="margin-bottom:16px"><h2>About PANOPLY INTERIOR</h2></div>
+        <p style="color:#475569;line-height:1.8;margin-bottom:12px;font-size:.93rem">Panoply Interior is a trusted interior design and general contracting firm based in Kelambakkam, Tamil Nadu, dedicated to transforming homes and commercial spaces with quality craftsmanship and creative design. Led by Mr. Suriya and a passionate team of skilled professionals, Panoply Interior brings together innovative ideas and hands-on expertise to deliver interiors that are both beautiful and functional. From custom wardrobes and cabinetry to complete home makeovers, every project is handled with care and commitment.</p><p style="color:#475569;line-height:1.8;margin-bottom:12px;font-size:.93rem">With a strong rating of 4.4 out of 5 based on over 110 customer reviews, Panoply Interior has built a reputation for impressive workmanship and attentive service across the Chennai region. Our coordinators and on-site workers work closely with clients to understand their unique needs, ensuring every detail is executed to satisfaction. Whether you are furnishing a new home or renovating an existing space, Panoply Interior is your reliable partner for quality interior solutions.</p>
+        <ul class="hl-list"><li>4.4★ Rating from 110+ Satisfied Customers</li><li>Expert Team Led by Experienced Designer Mr. Suriya</li><li>Custom Furniture &amp; Full Home Interior Solutions Under One Roof</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services-bg">
+  <div class="container">
+    <div class="sec-head"><h2>Our Services</h2><p>Everything we offer</p></div>
+    <div class="svc-grid"><div class="svc-card"><h3>Custom Wardrobe &amp; Cabinet Making</h3><p>Bespoke wardrobe cabinets, dining sideboards, and storage units crafted to your specifications using quality materials and skilled joinery.</p></div><div class="svc-card"><h3>Complete Home Interior Design</h3><p>End-to-end interior transformation for your home, including layout planning, material selection, and professional execution by an experienced team.</p></div><div class="svc-card"><h3>Modular Kitchen Design</h3><p>Stylish and functional modular kitchen setups designed to maximize space efficiency while complementing your home's overall aesthetic.</p></div><div class="svc-card"><h3>False Ceiling &amp; Partition Works</h3><p>Elegant false ceiling installations and space partition solutions to enhance the look and feel of any room in your home or office.</p></div><div class="svc-card"><h3>Furniture &amp; Woodwork</h3><p>Custom wooden furniture and carpentry work tailored to your style preferences, space requirements, and budget.</p></div><div class="svc-card"><h3>Commercial Interior Fit-Outs</h3><p>Professional interior contracting services for offices, shops, and commercial establishments, delivered on time with quality finishing.</p></div></div>
+  </div>
+</section>
+<div class="parallax-strip">
+  <div class="pstrip-bg" id="ps"></div>
+  <div class="pstrip-overlay"></div>
+  <div class="pstrip-content">
+    <h2>Let's Work Together</h2>
+    <p>KSS St, near citi union bank, Kittu Nagar, Kelambakkam, Tamil Nadu 603103, India · Monday: 9:00 AM – 5:00 PM | Tuesday: 9:00 AM – 5:00 PM | Wednesday: 9:00 AM – 5:00 PM | Thursday: 9:00 AM – 5:00 PM | Friday: 9:00 AM – 5:00 PM | Saturday: 9:00 AM – 5:00 PM | Sunday: 9:00 AM – 1:00 PM</p>
+    <a href="https://wa.me/918939626326?text=Hi%2C%20I%20found%20Panoply%20Interior%20online%20and%20I'm%20interested%20in%20your%20interior%20design%20and%20furniture%20services.%20Could%20you%20please%20share%20more%20details%20and%20help%20me%20get%20started%3F" style="background:#fff;color:#2C3E50;padding:13px 28px;border-radius:8px;text-decoration:none;font-weight:700;display:inline-block">💬 WhatsApp Now</a>
+  </div>
+</div>
+<section><div class="container"><div class="sec-head"><h2>Our Work</h2><p>A glimpse of what we do</p></div><div class="gallery-grid"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEH4-dxxULB_3loMnwElu6jq2tRFecEAyndfyVtkE-Q_LHAUufpG9Zct0JZkWhjw5xtNoy3GhNqbTrxXoxMhcvUeOl32xZqPI3huYTJGrHVETDS1QkyWPMTNy-5oFr5rNVd1rzO7MaTlGLOKV4Ucc7QffvjZcj_r9tqY0QQgJDLJIX78ILi8T57vdblrP8faSjJdAj8ydFa9m47Pj477H_lx5bY4ScpX_KJXPoFgl6ATXtS221gNmrolBxeu3AfKLxOf0x0e0KbnT8R7YzJI0Rpn9k9tN2BDm81NCUbwb9mQVg&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="PANOPLY INTERIOR" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHByMFa6aH582S1bU4Yw9_ivKqV750pH_itQynjCsv_phE62EnzYfNA8zHIADNQgSOUaP75pAmBDJpfKxW7kH5jObkeFrYSHlsWTUNPbF6PfwKtMYnwci5ez6Z8QpdCLfKuf_NiHDIvJYb67JxPmetYlKTjQR2Cl0ODPhjN4q6Jm1Wobt6miGKb5bKV4oRUmEjBaIaLHOeluA73rVbRxldalcRJ2juVtLnzTlpASW6-C0u5GFiKqgr0-i4szWZsMDqw0RLshKKeoL6F4PcLuY9VBoE3rpKx1W60HJOqeVFCGQ&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="PANOPLY INTERIOR" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHG0Wzuch8_EMurhKUYgtOgASmi3giZEvEnz5y35OzG8FSGW8xOHrwU2YcvYkZhKh5O1xQB5Q3vz4ty6mGDLVjxuex5XlAjgDIe78_Dzs4Q1zuKNT5vOTEEf1xRCekmpjU-Fem0CrGKq7Bi_7Wk4mHlEZE4UlPs4DvTlcoLOqWaFJSx7jfbncrYHRgp401yOCsd6rd7sf8R37G0DwALRw015GLjk56aVZX-GXnAR5F-CrkXzHuJ9nP0jQDFZIIuxDT2_4k2yFOBjt_zdNHh7_igWlL5C9QqnMUc-DQh1-Vy8g&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="PANOPLY INTERIOR" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEHkvUSryGd3mDfEMEXzD2DYTbceewiLJUeMaHMPASGGV6eEthFBo1RHQXNG_TlStLpq6JWyR5EI9njk5yenr5raO5k-WjTqmBRFus_G-HSAcnASS_v7frdLszuLyDt5xCNqa6cBrW_4C92x6v5eXacRTtysM_p2PC5mVyn3ghWzDtaR43qqNahN_MZ-VbfFPB5ia6gJVTb489X9A1HfbAs38HudPXzq4-zRHdxi8bdsbsWDRJ3kaYkGXVXw_yVNo1NW9Jb5rxiEq1jmeosFTl4uQxZDEuPKl5bfLEduvvoYow&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="PANOPLY INTERIOR" loading="lazy" onerror="this.parentElement.remove()"><img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photo_reference=AU_ZVEEp1X59v_fr26tQ0I-Gj_jmFqbUCUxk-md7ZjoI4ygjYiU-DyzdMO0h6IYKUPvD1M3YDDvTQ4RgT8S-gJBZQUGaeliA2ArGqaB_AHo6h0ThE7bSZIp0MbjzB9C9GHNwJTfuZlmpAJ8NqQrBcok3idenZShwZaJXZ5W6P3D5ne-EldyYuY6aQh8qpaoAu0a6VmClCzA5E5vJeeSNjGEdqhiJAcoh_32Ss3w9wht7qDsPbxqoS63su6H0oO9qdkBqVUlIqsqf8MUp5O9_TeH-81r_t35y4pHuckjSSwy5k1cvbA&key=AIzaSyC_ivUff6pQaag6HCBj5_PO3mk1G6kCKKs" alt="PANOPLY INTERIOR" loading="lazy" onerror="this.parentElement.remove()"></div></div></section>
+<section class="reviews-bg">
+  <div class="container">
+    <div class="sec-head"><h2 style="color:#fff">What People Say</h2><p style="color:rgba(255,255,255,.4)">Real reviews from our customers</p></div>
+    <div class="rv-grid"><div class="rv-card"><div class="rv-stars">★★★★☆</div><p class="rv-text">"Really we were amazing to work with team Panoply Interior. Their entire team was impressive. I would like to thank Mr. Surya for giving me a wonderful output for our home — they delivered with good quality and great attention to detail."</p><div class="rv-author">— Vignesh Vijay</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"Amazing professional work by Panoply Interiors. Transformed my home with such finesse. Quite talented and hardworking team who ensure the customers' needs and requirements are met."</p><div class="rv-author">— Shine</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"Good team PANOPLY INTERIOR. I am strongly recommending Panoply Interior — good quality and finally I am satisfied. Thank you!"</p><div class="rv-author">— Jagan Kumar</div></div><div class="rv-card"><div class="rv-stars">★★★★★</div><p class="rv-text">"We recently engaged the Panoply team to do interior deco works at our new home. Their team's performance is commendable. Coordinators and hands-on workers are highly professional and dedicated."</p><div class="rv-author">— Akshaya Arun</div></div></div>
+  </div>
+</section>
+<div class="cta-strip">
+  <div class="container">
+    <h2>Ready to Connect?</h2>
+    <p style="opacity:.82;max-width:440px;margin:0 auto;font-size:.95rem">KSS St, near citi union bank, Kittu Nagar, Kelambakkam, Tamil Nadu 603103, India</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/918939626326?text=Hi%2C%20I%20found%20Panoply%20Interior%20online%20and%20I'm%20interested%20in%20your%20interior%20design%20and%20furniture%20services.%20Could%20you%20please%20share%20more%20details%20and%20help%20me%20get%20started%3F" class="cb-w">💬 WhatsApp</a>
+      <a href="tel:089396 26326" class="cb-o">📞 089396 26326</a>
+      <a href="https://maps.google.com/?cid=5074166590342092352" class="cb-o">📍 Directions</a>
+    </div>
+  </div>
+</div>
+<footer>© 2026 PANOPLY INTERIOR · KSS St, near citi union bank, Kittu Nagar, Kelambakkam, Tamil Nadu 603103, India</footer>
+<a href="https://wa.me/918939626326?text=Hi%2C%20I%20found%20Panoply%20Interior%20online%20and%20I'm%20interested%20in%20your%20interior%20design%20and%20furniture%20services.%20Could%20you%20please%20share%20more%20details%20and%20help%20me%20get%20started%3F" class="wa-float" title="Chat on WhatsApp" aria-label="WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<script>
+if(window.innerWidth>768){
+  const hp=document.getElementById('hp'),ps=document.getElementById('ps');
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    if(hp)hp.style.transform='translateY('+y*.3+'px)';
+    if(ps){const r=ps.closest('.parallax-strip').getBoundingClientRect();ps.style.transform='translateY('+(r.top*.2)+'px)'}
+  },{passive:true});
+}
+</script>
+</body></html>
